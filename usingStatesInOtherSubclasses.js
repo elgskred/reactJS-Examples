@@ -8,7 +8,7 @@ class Test extends React.Component {
       age: 22
     };
   }
-
+//Use arrow function to bind and access 'this.setState'
   logCmd = () => {
     console.log(this.state.value);
     this.setState({
